@@ -23,10 +23,10 @@ const fs = require("fs");
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const client = new Discord.Client();
-const prefix = "j!";
+const prefix = "g!";
 
 
-client.login("ODA4NTUxMjE1ODU2MjIyMjA5.YCIMAA.F-zPxjjtjkSrfwa0bqG9oC31CHw");
+client.login("Nzk3ODQyMTI0NjQwNzQ3NTgy.X_sWYQ.aGcc76fgiDtmHUrmQefPjLaF4Sw");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("ONLINE");
